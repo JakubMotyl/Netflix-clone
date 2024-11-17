@@ -36,3 +36,40 @@
   width: 100%;
   height: 30rem;
 }
+
+/* RESPONSIVNES AT 970 */
+
+@media screen and (max-width: 970px) {
+  .row__poster {
+    max-height: 11vw;
+  }
+  .row__posterLarge {
+    max-height: 29.35vw;
+  }
+  .banner__video iframe {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  .row__poster {
+    max-height: 13.5vw;
+  }
+  .row__posterLarge {
+    max-height: 36.15vw;
+  }
+  .banner__video iframe {
+    height: 23rem;
+  }
+}
+@media screen and (max-width: 567px) {
+  .row__poster {
+    max-height: 20vw;
+  }
+  .row__posterLarge {
+    max-height: 52.45vw;
+  }
+  .banner__video iframe {
+    height: 20rem;
+  }
+}

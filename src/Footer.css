@@ -36,3 +36,32 @@
   font-size: 0.82rem;
   color: #b1b1b1;
 }
+
+/* RESPONSIVNES AT 1024 */
+
+@media screen and (max-width: 1024px) {
+  .footer__links-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 856px) {
+  .footer-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer__icons-container {
+    margin: 0 auto;
+  }
+  .footer__links-container {
+    margin: 0 auto;
+  }
+  .footer__links-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.5rem;
+  }
+  .footer__copyright {
+    margin: 0 auto;
+  }
+}

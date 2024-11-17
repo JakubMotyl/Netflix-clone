@@ -45,7 +45,7 @@ function Banner() {
       
       <div className='banner__description'>
         <p className='banner__title'>{startMovie.title || startMovie.name}</p>
-        <p className='banner__overview'>{truncateText(startMovie.overview, 160)}</p>
+        <p className='banner__overview'>{truncateText(startMovie.overview, 145)}</p>
         <div className='banner__buttons'>
           <a href='#' className='banner__button banner__button-watch'>
             <div className='banner__button-content'>

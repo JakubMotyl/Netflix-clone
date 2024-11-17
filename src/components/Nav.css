@@ -70,3 +70,38 @@ nav {
 .nav__list-container ul > li > a:hover {
   color: #b1b1b1;
 }
+
+/* RESPONSIVNES AT 970 */
+
+@media screen and (max-width: 970px) {
+  .nav__list-container ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 567px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    height: 3.8rem;
+  }
+  .nav__logo {
+    max-height: 20px;
+  }
+  .nav__avatar--wrapper {
+    gap: 1rem;
+  }
+  .nav__avatar--wrapper .nav__kids-category {
+    font-size: 0.8rem;
+  }
+  .nav__icon {
+    font-size: 1rem;
+  }
+  .nav__avatar {
+    max-height: 25px;
+  }
+  .nav__list-container ul {
+    display: none;
+  }
+}
