@@ -1,0 +1,72 @@
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 2.8rem;
+  z-index: 999;
+  padding: 1rem 3.6rem;
+  height: 4.2rem;
+  background-color: transparent;
+  transition: background-color .4s;
+}
+.nav__background {
+  background-color: #111;
+}
+.nav__logo-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav__logo {
+  max-height: 25px;
+}
+.nav__list-container {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav__list-container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  line-height: 1;
+}
+.nav__list-container ul > li > a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 200;
+  font-size: 0.98rem;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+.nav__avatar--wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+}
+.nav__avatar--wrapper .nav__kids-category {
+  display: flex;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 300;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+.nav__icon {
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.nav__avatar {
+  max-height: 32px;
+  border-radius: 0.15rem;
+}
+.nav__icon:hover,
+.nav__kids-category:hover,
+.nav__list-container ul > li > a:hover {
+  color: #b1b1b1;
+}
