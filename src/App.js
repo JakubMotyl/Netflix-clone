@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css'
-import Row from './components/Row';
+import Row from './components/scripts/Row';
 import requests from './components/data/Requests';
-import Nav from './components/Nav';
-import Banner from './components/Banner';
-import Footer from './Footer';
+import Nav from './components/scripts/Nav';
+import Banner from './components/scripts/Banner';
+import Footer from './components/scripts/Footer';
+
+// Generate App Function
 
 function App() {
   return (

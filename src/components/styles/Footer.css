@@ -37,7 +37,7 @@
   color: #b1b1b1;
 }
 
-/* RESPONSIVNES AT 1024 */
+/* RESPONSIVENESS */
 
 @media screen and (max-width: 1024px) {
   .footer__links-container {

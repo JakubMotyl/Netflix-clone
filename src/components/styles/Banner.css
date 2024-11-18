@@ -77,7 +77,7 @@ p.banner__overview {
   letter-spacing: -0.5px;
 }
 
-/* RESPONSIVNES AT 970 */
+/* RESPONSIVENESS */
 
 @media screen and (max-width: 970px) {
   p.banner__title {

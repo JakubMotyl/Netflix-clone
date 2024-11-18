@@ -71,7 +71,7 @@ nav {
   color: #b1b1b1;
 }
 
-/* RESPONSIVNES AT 970 */
+/* RESPONSIVENESS */
 
 @media screen and (max-width: 970px) {
   .nav__list-container ul {

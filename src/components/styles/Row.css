@@ -37,7 +37,7 @@
   height: 30rem;
 }
 
-/* RESPONSIVNES AT 970 */
+/* RESPONSIVENESS */
 
 @media screen and (max-width: 970px) {
   .row__poster {

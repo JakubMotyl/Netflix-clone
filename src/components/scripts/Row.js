@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import './Row.css';
-import axios from './data/axios';
+import '../styles/Row.css';
+import axios from '../data/axios';
 import Youtube from 'react-youtube'
 import movieTrailer from 'movie-trailer'
 
 const image_url = 'https://image.tmdb.org/t/p/original';
+
+// Generate Movies Row
 
 function Row({ fetchUrl, title, isLarge }) {
   const[movies, setMovies] = useState([]);
@@ -24,12 +26,16 @@ function Row({ fetchUrl, title, isLarge }) {
 
   // console.log(movies);
 
+  // Trailer Options
+
   const trailerOpts = {
     playerVars: {
       autoplay: 1,
       loop: 1,
     }
   }
+
+  // Run Trailer Function
 
   const runTrailer = (movie) => {
     if (trailerUrl) {

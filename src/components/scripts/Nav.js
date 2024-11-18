@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react'
-import './Nav.css'
+import '../styles/Nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faBell } from '@fortawesome/free-solid-svg-icons'; 
 
+// Generate Nav Function
+
 function Nav() {
-  const [nav, setNav] = useState(false);
+  
   // Show nav background on scroll
+
+  const [nav, setNav] = useState(false);
+
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if(window.scrollY > 1) {

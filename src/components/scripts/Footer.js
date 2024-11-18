@@ -1,7 +1,9 @@
 import React from 'react'
-import './Footer.css'
+import '../styles/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+
+// Generate Footer Function
 
 function Footer() {
   return (

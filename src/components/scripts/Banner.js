@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react'
-import './Banner.css'
-import axios from './data/axios'
-import requests from './data/Requests'
+import '../styles/Banner.css'
+import axios from '../data/axios'
+import requests from '../data/Requests'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInfo, faPlay } from '@fortawesome/free-solid-svg-icons'
 
+// Generate Banner Function
 
 function Banner() {
   const [startMovie, setStartMovie] = useState([])
+
+  // Fetch Data
 
   useEffect(() => {
     const fetchData = async () => {
